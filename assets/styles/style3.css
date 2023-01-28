@@ -1,7 +1,10 @@
 /* Hoja de estilos a mi criterio */
-
-
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
 
 header h1 {
     font-size: 70px;
