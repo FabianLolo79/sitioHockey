@@ -20,7 +20,7 @@ header h1 {
     background: url(../img/design1_image1.jpg);
     height: 400px;
     background-size: cover;
-    background-position: top;
+    background-position: bottom;
 }
 .section {
     
