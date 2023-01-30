@@ -77,4 +77,11 @@ ul li p{
     border-radius: 15px;
 }
 
+/* About */
+.lista li h3 {
+    font-style: normal;
+}
+p.primeraLinea {
+    text-indent: 40px;
+}
 
