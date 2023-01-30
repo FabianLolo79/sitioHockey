@@ -15,7 +15,6 @@ header h1 {
     color: #000000;
     margin: 0px 30px;
 }
-
 .section {
     position: relative;
 }
@@ -33,10 +32,8 @@ header h1 {
     padding: 5px;
 }
 nav {
-    display: inline-block;
-    width: 200px;
-    position: relative;
-    top: 50px;
+    position: absolute;
+    top: 500px;
 }
 nav a {
     display: block;
@@ -44,20 +41,18 @@ nav a {
     font-size: 18px;
     color: #00FF;
 }
-
 a.active {
   color: #000000;
   text-decoration: none;
 
 }
-
 ul {
-    display: inline-block;
     list-style: none;
+    width: 600px;
     position: relative;
     top: 50px;
+    left: 200px;
 }
-
 ul li {
     margin-bottom: 15px;
 }
@@ -75,39 +70,20 @@ ul li p{
 li>h3 {
     font-style: italic;
 }
-
-
 .imagen-equipo {
     position: absolute;
     width: 300px;
-    margin-top: 50px;
-    margin-left: 215px;
+    top: 500px;
+    right: 50px;
     border-radius: 15px;
 }
 
 /* About */
-.lista {
-    width: 600px;
-    position: relative;
-    top: 50px;
-    left: 200px;
-}
 .lista li h3 {
     font-style: normal;
 }
-.nav {
-    position: absolute;
-    top: 500px;
-}
-
 p.primeraLinea {
     text-indent: 40px;
-}
-
-.imagen-equipo.about {
-    position: absolute;
-    top: 440px;
-    right: 70px;
 }
 
 
