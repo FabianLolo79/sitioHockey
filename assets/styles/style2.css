@@ -23,13 +23,11 @@ header h1 {
     color: #000000;
     text-align: center;
     padding: 5px;
-    /* font-weight: bold; */
 }
 nav {
     position: absolute;
     top: 50px;
     right: 25px;
-    
 }
 nav a {
     border: 1px solid #000000;
