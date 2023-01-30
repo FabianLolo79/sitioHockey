@@ -11,6 +11,7 @@
     background-position: top;
 }
 header h1 {
+    position: absolute;
     font-size: 70px;
     color: #000000;
     margin: 0px 30px;
@@ -59,16 +60,13 @@ ul li {
 ul li h3 {
     font-size: 25px;
     font-weight: bold;
+    font-style: italic;
 }
 ul li p{
     font-size: 20px;
 }
 .parrafo {
     padding-left: 25px;
-}
-
-li>h3 {
-    font-style: italic;
 }
 .imagen-equipo {
     position: absolute;
