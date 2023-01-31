@@ -6,7 +6,7 @@
     font-family: 'Comic Neue', cursive;
 }
 header {
-    background-color: #5fa098;
+    background-color: #484A4B;
     
 }
 header h1 {
@@ -14,7 +14,7 @@ header h1 {
     color: #f9e12f;
     display: inline-block;
     position: relative;
-    left: 400px;
+    left: 280px;
 }
 .img-banner {
     background: url(../img/design1_image1.jpg);
@@ -22,32 +22,29 @@ header h1 {
     background-size: cover;
     background-position: bottom;
 }
-.section {
-    
-}
 .section h2 {
-    background-color: #FFFFFF;
-    color: #000000;
+    background-color: #484A4B;
+    color: #f9e12f;
     text-align: center;
     padding: 5px;
 }
 nav {
     position: absolute;
-    top: 100px;
-    right: 570px;
+    top: 430px;
+    right: 250px;
 }
 nav a {
     border: 1px solid #000000;
     border-radius: 15px;
     padding: 5px 20px;
     background-color: #c74932;
-    color: #D0D3D4;
+    color: #f9e12f;
     font-size: 18px;
     text-decoration: none;
 }
 a:hover {
     background-color: #f9e12f;
-    color: #000000;
+    color: #c74932;
 }
 .logo {
     position: absolute;
@@ -57,7 +54,7 @@ a:hover {
 }
 .active {
     background-color: #f9e12f;
-    color: #000000;
+    color: #c74932;
     text-decoration: underline;
 }
 ul {
@@ -97,3 +94,43 @@ p.primeraLinea {
     text-indent: 40px;
 }
 
+/* Rules */
+.titulos {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9e12f;
+}
+.sport {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #c74932;
+}
+
+.listaNumeros {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #639fee;
+    list-style-type: decimal;
+}
+.listaMinuscula {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e251f0;
+    list-style-type: lower-latin;
+}
+.listaDisco {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e48921;
+    list-style-type: circle;
+}
