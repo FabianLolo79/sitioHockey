@@ -15,6 +15,7 @@ header h1 {
     display: inline-block;
     position: relative;
     left: 280px;
+    text-shadow: 3px 3px #c74932;
 }
 .img-banner {
     background: url(../img/design1_image1.jpg);
@@ -27,6 +28,7 @@ header h1 {
     color: #f9e12f;
     text-align: center;
     padding: 5px;
+    text-shadow: 2px 2px #c74932;
 }
 nav {
     position: absolute;
@@ -35,12 +37,13 @@ nav {
 }
 nav a {
     border: 1px solid #000000;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 5px 20px;
     background-color: #c74932;
     color: #f9e12f;
     font-size: 18px;
     text-decoration: none;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5)
 }
 a:hover {
     background-color: #f9e12f;
@@ -56,6 +59,7 @@ a:hover {
     background-color: #f9e12f;
     color: #c74932;
     text-decoration: underline;
+    box-shadow: 3px 3px 3px rgba(198, 72, 50, 0.5)
 }
 ul {
     list-style: none;
@@ -84,6 +88,7 @@ ul li p{
     top: 530px;
     right: 50px;
     border-radius: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5)
 }
 
 /* About */
