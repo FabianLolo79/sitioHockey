@@ -7,6 +7,7 @@
 }
 header {
     background-color: #484A4B;
+    margin: 1px;
     
 }
 header h1 {
@@ -17,7 +18,7 @@ header h1 {
     left: 280px;
     text-shadow: 3px 3px #c74932;
 }
-.img-banner {
+.image-banner {
     background: url(../img/design1_image1.jpg);
     height: 400px;
     background-size: cover;
@@ -29,11 +30,12 @@ header h1 {
     text-align: center;
     padding: 5px;
     text-shadow: 2px 2px #c74932;
+    margin: 0px 1px;
 }
 nav {
     position: absolute;
     top: 430px;
-    right: 250px;
+    right: 400px;
 }
 nav a {
     border: 1px solid #000000;
@@ -61,12 +63,18 @@ a:hover {
     text-decoration: underline;
     box-shadow: 3px 3px 3px rgba(198, 72, 50, 0.5)
 }
+main {
+    margin: 0px 1px;
+    padding: 15px 1px;
+    background-color: #f9e12f;
+}
 ul {
     list-style: none;
     width: 600px;
     position: relative;
-    top: 50px;
+    top: 10px;
     left: 350px;
+    padding-bottom: 15px;
 }
 ul li {
     margin-bottom: 15px;
@@ -79,10 +87,10 @@ ul li h3 {
 ul li p{
     font-size: 20px;
 }
-.parrafo {
+.paragraph {
     padding-left: 25px;
 }
-.imagen-equipo {
+.image-team {
     position: absolute;
     width: 300px;
     top: 530px;
@@ -92,15 +100,15 @@ ul li p{
 }
 
 /* About */
-.lista li h3 {
+.list li h3 {
     font-style: normal;
 }
-p.primeraLinea {
+.first-line {
     text-indent: 40px;
 }
 
 /* Rules */
-.titulos {
+.title {
     display: block;
     text-align: center;
     margin: 10px;
@@ -109,33 +117,35 @@ p.primeraLinea {
 }
 .sport {
     display: block;
-    text-align: center;
-    margin: 10px;
+    width: 800px;
+    text-align: justify;
+    margin: 10px 0px 10px 200px;
     padding: 10px;
-    background-color: #c74932;
+    background-color: #e48921;
 }
 
-.listaNumeros {
+.list-number {
     display: block;
-    text-align: center;
-    margin: 10px;
+    width: 800px;
+    text-align: justify;
+    margin: 10px 0px 10px 200px;;
     padding: 10px;
     background-color: #639fee;
-    list-style-type: decimal;
 }
-.listaMinuscula {
+.list-number h2 {
+    padding: 15px 0px;
+}
+.list-lowercase {
     display: block;
     text-align: center;
     margin: 10px;
     padding: 10px;
     background-color: #e251f0;
-    list-style-type: lower-latin;
 }
-.listaDisco {
+.list-disc {
     display: block;
     text-align: center;
     margin: 10px;
     padding: 10px;
     background-color: #e48921;
-    list-style-type: circle;
 }
