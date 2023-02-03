@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="./assets/styles/style.css">
 
     <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700&display=swap" rel="stylesheet">
 
     <title>Mighty Ducks Hockey League</title>
 </head>
@@ -33,100 +35,100 @@
     </nav>
 
     <main>
-        <section>
-            <h2>Fall Schedule</h2>
-            <p>all games take place on Satuday.</p>
-        </section>
-        <table>
-            <thead>
-                <tr>
-                    <th>SEPTEMBER</th>
-                    <th>Teams</th>
-                    <th>Locations</th>
-                    <th>Times</th>
-                </tr>
-            </thead>
-            <tbody style="background-color: blueviolet;">
-                <tr>
-                    <td rowspan="2">9/01</td>
-                    <td>U1 and U4</td>
-                    <td>AJ Katzenmaier</td>
-                    <td>9:30 a.m.</td>
-                </tr>
-                <tr>
-                    <td>U3 and U2</td>
-                    <td>GreenBay</td>
-                    <td>1:00 p.m.</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">9/08</td>
-                    <td>U5 and U6</td>
-                    <td>Howard and Yeager</td>
-                    <td>9:30 a.m.</td>
-                </tr>
-                <tr>
-                    <td>U6 and U1</td>
-                    <td>Marjorie P Hart</td>
-                    <td>1:00 p.m.</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">9/15</td>
-                    <td>U2 and U4</td>
-                    <td>North</td>
-                    <td>9:30 a.m.</td>
-                </tr>
-                <tr>
-                    <td>U3 and U5</td>
-                    <td>AJ Katzenmaier</td>
-                    <td>1:00 p.m.</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">9/22</td>
-                    <td>U1 and U3</td>
-                    <td>South</td>
-                    <td>9:30 a.m.</td>
-                </tr>
-                <tr>
-                    <td>U2 and U6</td>
-                    <td>Howard and Yeager</td>
-                    <td>1:00 p.m.</td>
-                </tr>
-                <tr>
-                    <td>9/29</td>
-                    <td>U4 and U5</td>
-                    <td>GreenBay</td>
-                    <td>9:30 a.m.</td>
-                </tr>
-            </tbody>
-        </table>
-        <section>
-            <h2>
-                <span class="bold">Facility Type:</span>
-                Outdoor
-            </h2>
-            <p>
-                <span class="bold">Additional Information:</span>
-                If deemed necessary by MDHL games may be shortened or cancelled due to extreme weather
-                conditions.
-            </p>
-            <p>
-                <span class="bold">Please direct all questions to:</span>
-                Michael Randall, League Coordinator.
-            </p>
-            <p>
-                Phone:
-                <a href="tel:630698132">(630) 6908132</a>
-            </p>
-            <p>
-                Email: 
-                <a href="mailto:michael.randall@chihokey.org">michael.randall@chihokey.org</a>
-            </p>
-        </section>
-
-
-        
+        <div class="flex">
+            <section class="title">
+                <h2>Fall Schedule</h2>
+            </section>
+            <table>
+                <caption>* All games take place on Satuday.</caption>
+                <thead>
+                    <tr>
+                        <th>SEPTEMBER</th>
+                        <th>Teams</th>
+                        <th>Locations</th>
+                        <th>Times</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">9/01</td>
+                        <td>U1 and U4</td>
+                        <td>AJ Katzenmaier</td>
+                        <td>9:30 a.m.</td>
+                    </tr>
+                    <tr>
+                        <td>U3 and U2</td>
+                        <td>GreenBay</td>
+                        <td>1:00 p.m.</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">9/08</td>
+                        <td>U5 and U6</td>
+                        <td>Howard and Yeager</td>
+                        <td>9:30 a.m.</td>
+                    </tr>
+                    <tr>
+                        <td>U6 and U1</td>
+                        <td>Marjorie P Hart</td>
+                        <td>1:00 p.m.</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">9/15</td>
+                        <td>U2 and U4</td>
+                        <td>North</td>
+                        <td>9:30 a.m.</td>
+                    </tr>
+                    <tr>
+                        <td>U3 and U5</td>
+                        <td>AJ Katzenmaier</td>
+                        <td>1:00 p.m.</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">9/22</td>
+                        <td>U1 and U3</td>
+                        <td>South</td>
+                        <td>9:30 a.m.</td>
+                    </tr>
+                    <tr>
+                        <td>U2 and U6</td>
+                        <td>Howard and Yeager</td>
+                        <td>1:00 p.m.</td>
+                    </tr>
+                    <tr>
+                        <td>9/29</td>
+                        <td>U4 and U5</td>
+                        <td>GreenBay</td>
+                        <td>9:30 a.m.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <section>
+                <h2>Facility Type: <span class="outdoor">Outdoor</span></h2>
+                <p class="paragraph">
+                    <span>Additional Information:</span>
+                    If deemed necessary by MDHL games may be shortened or cancelled due to extreme weather
+                    conditions.
+                </p>
+                <p class="paragraph">
+                    <span>Please direct all questions to:</span>
+                    Michael Randall, League Coordinator.
+                </p>
+              <div class="container">
+                    <p class="paragraph">
+                        <span>Phone:</span>
+                        <a href="tel:630698132">(630) 6908132</a>
+                    </p>
+                    <p class="paragraph">
+                        <span>Email:</span>  
+                        <a href="mailto:michael.randall@chihokey.org">michael.randall@chihokey.org</a>
+                    </p>
+              </div>
+            </section>
+            <figure>
+                <img class="image-team game" src="./assets/img/design1_image2.jpg" alt="jugadores disputando el cocito">
+            </figure>
+        </div>
         
     </main>
-    <!-- <a href="tel:630698132"></a> -->
 </body>
 </html>
