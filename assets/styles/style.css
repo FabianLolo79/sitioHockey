@@ -175,9 +175,15 @@ table caption {
     font-style: italic;
     padding-left: 15px;
 }
+th {
+    padding: 10px;
+}
 tr:hover {
     background-color: #c74932;
     
+}
+th:hover {
+    color: #f9e12f;
 }
 td:hover {
     color: #f9e12f;
