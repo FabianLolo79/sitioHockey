@@ -208,3 +208,37 @@ td:hover {
     border-bottom: 1px solid #000000;
     background: none;
 }
+div {
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    padding: 1em 1em;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+fieldset{
+    padding: 10px;
+    border: none;
+}
+.personal-data label {
+    padding: 10px 30px 10px 30px;
+}
+.personal-data input {
+    /* border: none; */
+    
+}
+.personal-data {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+p {
+    text-align: justify;
+}
