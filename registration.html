@@ -40,61 +40,58 @@
                 <fieldset class="personal-data">
                     <!-- <legend></legend> -->
                     <label for="first-name">Player´s First Name:</label>
-                        <input class="border-bottom input-large" type="text" name="first-name" id="first-name">
+                        <input class="border-bottom input-large" type="text" name="first-name" id="first-name" required>
 
                     <label for="last-name">Last Name:</label>
-                        <input class="border-bottom input-large" type="text" name="last-name" id="last-name">
+                        <input class="border-bottom input-large" type="text" name="last-name" id="last-name" required>
                     <br>
                     <label for="address">Street Address:</label>
-                        <input class="border-bottom address" type="text" name="address" id="address">
+                        <input class="border-bottom address" type="text" name="address" id="address" required>
                     <br>
                     <label for="city">City:</label>
-                        <input class="border-bottom" type="text" name="city" id="city">
+                        <input class="border-bottom" type="text" name="city" id="city" required>
                     
                     <label for="zip-code">Zip code:</label>
-                        <input class="border-bottom" type="number" name="zip-code" id="zip-code">
+                        <input class="border-bottom" type="number" name="zip-code" id="zip-code" required>
                     
                     <label for="birth">Birthday:</label>
-                        <input class="border-bottom date" type="date" name="date" id="birth">   
-                    <!-- <br>
-                    <label for="parent-guardian">Parent/Guardian:</label>
-                        <input class="border-bottom input-large" type="text" name="parent-guardian" id="parent-guardian"> -->
+                        <input class="border-bottom date" type="date" name="date" id="birth" required>   
                 </fieldset>
 
                 <fieldset class="space">
                     <legend>Gender:</legend>
                         <label for="male">Male</label>
-                            <input type="radio" name="gender" id="male" value="male">
+                            <input type="radio" name="gender" id="male" value="male" required>
                         <label for="female">Female</label>
-                            <input type="radio" name="gender" id="female" value="female">
+                            <input type="radio" name="gender" id="female" value="female" required>
                         <label for="otro">Otro</label>
-                            <input type="radio" name="gender" id="otro" value="otro">
+                            <input type="radio" name="gender" id="otro" value="otro" required>
                 </fieldset>
 
                 <fieldset class="space"> 
                     <legend>Grade:</legend>
                     <label for="pre-school">Pre-School</label>
-                        <input type="checkbox" name="pre-school" id="pre-school">
+                        <input type="checkbox" name="pre-school" id="pre-school" required>
 
                         <label for="first">1st</label>
-                            <input type="radio" name="grade" id="first" value="1">
+                            <input type="radio" name="grade" id="first" value="1" required>
                         
                         <label for="second">2nd</label>
-                            <input type="radio" name="grade" id="second" value="2">
+                            <input type="radio" name="grade" id="second" value="2" required>
                         
                         <label for="third">3rd</label>
-                            <input type="radio" name="grade" id="third" value="3">
+                            <input type="radio" name="grade" id="third" value="3" required>
                         
                         <label for="fourth">4th</label>
-                            <input type="radio" name="grade" id="fourth" value="4">
+                            <input type="radio" name="grade" id="fourth" value="4" required>
                         
                         <label for="fifth">5th</label>
-                            <input type="radio" name="grade" id="fifth" value="5">
+                            <input type="radio" name="grade" id="fifth" value="5" required>
                 </fieldset>
                 <fieldset class="space">
                     <legend>Which elementary school do you live near?</legend>
                     <label for="school">Closest School:</label>
-                    <select name="school" id="school" class="border-bottom">
+                    <select name="school" id="school" class="border-bottom" required>
                         <option value="">Select option</option>
                         <option value="AJ Katzenmaier">AJ Katzenmaier</option>
                         <option value="Greenbay">Greenbay</option>
@@ -149,11 +146,11 @@
                 </p>
                 
                 <label for="sign-parent">By entering your name below</label>
-                    <input class="border-bottom input-large" type="text" name="parent-guardian-sign" id="sign-parent">
+                    <input class="border-bottom input-large" type="text" name="parent-guardian-sign" id="sign-parent" required>
 
                 <div class="label-inline">
                     <label for="date-sign">Date</label>
-                        <input class="border-bottom date" type="date" name="date-sign" id="date-sign">
+                        <input class="border-bottom date" type="date" name="date-sign" id="date-sign" required>
                 </div>
                 
                     
