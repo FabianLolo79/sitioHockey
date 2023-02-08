@@ -35,44 +35,46 @@
         <a class="active" href="#">Registration</a>
     </nav>
     <main>
-        <div>
+        <div class="flex-reg">
             <form action="./show_data.html" method="get">
                 <fieldset class="personal-data">
                     <!-- <legend></legend> -->
                     <label for="first-name">Player´s First Name:</label>
-                        <input class="border-bottom" type="text" name="first-name" id="first-name">
+                        <input class="border-bottom input-large" type="text" name="first-name" id="first-name">
 
                     <label for="last-name">Last Name:</label>
-                        <input class="border-bottom" type="text" name="last-name">
-                    
+                        <input class="border-bottom input-large" type="text" name="last-name">
+                    <br>
                     <label for="address">Street Address:</label>
-                        <input class="border-bottom" type="text" name="address" id="address">
-                    
+                        <input class="border-bottom address type="text" name="address" id="address">
+                    <br>
                     <label for="city">City:</label>
                         <input class="border-bottom" type="text" name="city" id="city">
                     
                     <label for="zip-code">Zip code:</label>
                         <input class="border-bottom" type="number" name="zip-code" id="zip-code" max="">
                     
-                    <label for="birth">Birth day:</label>
-                        <input class="border-bottom" type="date" name="date" id="birth">   
-                    
+                    <label for="birth">Birthday:</label>
+                        <input class="border-bottom date" type="date" name="date" id="birth">   
+                    <!-- <br>
                     <label for="parent-guardian">Parent/Guardian:</label>
-                        <input class="border-bottom" type="text" name="parent-guardian" id="parent-guardian">
+                        <input class="border-bottom input-large" type="text" name="parent-guardian" id="parent-guardian"> -->
                 </fieldset>
 
-                <fieldset class="gender">
+                <fieldset class="space">
                     <legend>Gender:</legend>
                         <label for="male">Male</label>
                             <input type="radio" name="gender" id="male" value="male">
                         <label for="female">Female</label>
                             <input type="radio" name="gender" id="female" value="female">
+                        <label for="otro">Otro</label>
+                            <input type="radio" name="gender" id="otro" value="otro">
                 </fieldset>
 
-                <fieldset> 
+                <fieldset class="space"> 
                     <legend>Grade:</legend>
                     <label for="pre-school">Pre-School</label>
-                        <input type="checkbox" name="pre-school" id="grade">
+                        <input type="checkbox" name="pre-school" id="pre-school">
 
                         <label for="first">1st</label>
                             <input type="radio" name="grade" id="first" value="1">
@@ -89,7 +91,7 @@
                         <label for="fifth">5th</label>
                             <input type="radio" name="grade" id="fifth" value="5">
                 </fieldset>
-                <fieldset>
+                <fieldset class="space">
                     <legend>Which elementary school do you live near?</legend>
                     <label for="school">Closest School:</label>
                     <select name="school" id="school" class="border-bottom">
@@ -98,22 +100,24 @@
                         <option value="Greenbay">Greenbay</option>
                         <option value="Howard A Yeager">Howard A Yeager</option>
                         <option value="Marjorie P Hart">Marjorie P Hart</option>
-                        <option value="North Elemtary">North Elemtary</option>
-                        <option value="Suth Elemtary">Suth Elemtary</option>
+                        <option value="North Elemtary">North Elementary</option>
+                        <option value="Suth Elemtary">South Elementary</option>
                     </select>
                 </fieldset>
-                <fieldset>
+                <fieldset class="space">
                     <legend>What position(s) do you normally play? (check all that aplly)</legend>
-                    <label for="position">Forward</label>
+                    <label class="label-position" for="position">Forward</label>
                         <input type="checkbox" name="position" id="position" value="forward">
-                    <label for="position">Midfield</label>
+                    <!-- <br> -->
+                    <label class="label-position" for="position">Midfield</label>
                         <input type="checkbox" name="position" id="position" value="midfield">
-                    <label for="position">Defense</label>
+                    <!-- <br> -->
+                    <label class="label-position" for="position">Defense</label>
                         <input type="checkbox" name="position" id="position" value="defense">
-                    <label for="position">Goalkeeper</label>
+                    <label class="label-position" for="position">Goalkeeper</label>
                         <input type="checkbox" name="position" id="position" value="goalkeeper">
                 </fieldset>
-                <fieldset>
+                <fieldset class="space">
                     <legend>Uniform Size:</legend>
                     <label for="size">Youth Small</label>
                         <input type="radio" name="uniform-size" id="size" value="youth-small">
@@ -125,6 +129,7 @@
                         <input type="radio" name="uniform-size" id="size" value="small">
                     <label for="size">Medium</label>
                         <input type="radio" name="uniform-size" id="size" value="medium">
+                    <br><br>
                     <label for="size">Large</label>
                         <input type="radio" name="uniform-size" id="size" value="large">
                     <label for="size">Extra-Large</label>
@@ -142,13 +147,17 @@
                     transported to or from MDHL sponsored activities, which transportation.
                     By signing below, I here by agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.
                 </p>
-                <label for="sign-parent">Parent/Guardian Signature</label>
-                    <input class="border-bottom" type="text" name="" id="sign-parent">
+                
+                <label for="sign-parent">By entering your name below</label>
+                    <input class="border-bottom input-large" type="text" name="parent-guardian-sign" id="sign-parent">
 
-                <label for="date-sign"></label>
-                    <input class="border-bottom" type="date" name="" id="date-sign">
+                <div class="label-inline">
+                    <label for="date-sign">Date</label>
+                        <input class="border-bottom date" type="date" name="date-sign" id="date-sign">
+                </div>
+                
                     
-                <input type="submit" value="Enviar">
+                <input  class="button" type="submit" value="Send">
             </form>
         </div>
 

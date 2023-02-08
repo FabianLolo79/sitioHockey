@@ -202,21 +202,38 @@ td:hover {
     font-weight: 100;
     font-style: italic;
 }
+
+/* location */
+.section-location {
+    padding: 0.5em 1em 1em 1em;
+}
+.container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.title-location {
+    text-align: center;
+    padding: 1em;
+}
+
 /* registration */
+.flex-reg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .border-bottom {
+    height: 2em;
+    width: 12em;
     border: none;
     border-bottom: 1px solid #000000;
     background: none;
 }
-div {
-    /* height: 100vh; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.input-large {
+    width: 20em;
 }
 form {
-    padding: 1em 1em;
+    padding: 30px 30px;
     width: 75vw;
     display: flex;
     flex-direction: column;
@@ -228,17 +245,48 @@ fieldset{
     border: none;
 }
 .personal-data label {
-    padding: 10px 30px 10px 30px;
+    padding: 10px 10px;
 }
 .personal-data input {
-    /* border: none; */
-    
+    margin: 20px 0px;
 }
-.personal-data {
-    display: flex;
-    /* flex-direction: column; */
-    flex-wrap: wrap;
+.address {
+    width: 50em;
+}
+.space label {
+    padding: 10px 5px 10px 25px;
+}
+.label-position {
+    margin-left: 50px;
 }
 p {
     text-align: justify;
+}
+div.label-inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+div.label-inline label {
+    padding: 20px;
+}
+
+.date {
+    width: 10em;
+    padding: 0.1em;
+    margin: 1em;
+}
+.button {
+    width: 19em;
+    padding: 10px;
+    border: none;
+    background-color: #c74932;
+    color: #f9e12f;
+    font-size: 1em;
+}
+.button:hover {
+    background-color: #f9e12f;
+    color: #c74932;
+    border: 2px solid #484A4B;
+    text-transform: uppercase;
 }
